@@ -57,9 +57,29 @@ footer i:hover {
 }
 
 .div:hover {
-    background-color: aqua;
+    background-color: black;
 }
 
 button {
-    margin: 15px 0;
+    width: 350px;
+    height: 45px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 32px;
+}
+
+button:hover {
+    background-color: #0076ff;
+    box-shadow: 0px 15px 20px rgba(0, 118, 255, 0.4);
+    color: #fff;
+    transform: translateY(-6px);
 }
