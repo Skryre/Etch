@@ -59,3 +59,7 @@ footer i:hover {
 .div:hover {
     background-color: aqua;
 }
+
+button {
+    margin: 15px 0;
+}
