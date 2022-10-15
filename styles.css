@@ -17,7 +17,7 @@ main {
 }
 
 h1 {
-    color: rgb(62,145,136);
+    color: rgb(209 213 219);
 }
 
 footer {
@@ -42,8 +42,20 @@ footer i:hover {
 }
 
 .container {
-    min-height: 500px;
-    min-width: 500px;
-    background-color: rgb(209 213 219);
+    height: 550px;
+    width: 550px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.div {
+    background-color: rgb(209 213 219);
+    gap: 0;
+    margin: 0;
+    border: none;
+}
+
+.div:hover {
+    background-color: aqua;
+}
